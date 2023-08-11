@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="AuthPage/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/login" method="POST" class="loginForm">
+        <main class="loginFormContainer">
+            <span>
+                <p class="TypeMasterLogo">TypeMaster</p>
+                <p class="loginTag">Welcome Back !</p>
+            </span>
+            <main>
+                <section class="usernameContainer">
+                    <label for="userName">Username</label>
+                    <br>
+                    <input type="text" id="userName" name="username" placeholder="username">
+                </section>
+                <section class="passwordContainer">
+                    <label for="password">Password</label>
+                    <br>
+                    <input type="password" id="password" name="password" placeholder="password">
+                </section>
+            </main>
+            <section class="loginPage">
+                <button type="submit" class="loginBtn">Login</button>
+            </section>
+            <p class="signUpLink">Don't have an account ? <a href="/signUp" class="signUpbutton">Sign Up</a> </p>
+        </main>
+    </form>
+
+
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="SignUpPage/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/signUp" method="POST" class="signUpForm">
+        <main class="loginFormContainer">
+            <span>
+                <p class="TypeMasterLogo">TypeMaster</p>
+            </span>
+            <main>
+                <section class="emailContainer">
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="text" id="email" name="email" placeholder="email">
+                </section>
+                <section class="usernameContainer">
+                    <label for="userName">Username</label>
+                    <br>
+                    <input type="text" id="userName" name="username" placeholder="username">
+                </section>
+                <section class="passwordContainer">
+                    <label for="password">Password</label>
+                    <br>
+                    <input type="password" id="password" name="password" placeholder="password">
+                </section>
+            </main>
+            <section class="loginPage">
+                <button class="loginBtn">SignUp</button>
+            </section>
+            <p class="signUpLink">Already have an account ? <a href="/login" class="signUpbutton">Login</a> </p>
+        </main>
+    </form>
+</body>
+
+</html>
